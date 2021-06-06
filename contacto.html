@@ -62,12 +62,16 @@
                 </div>
 
                 <form action="index.html" method="GET" class="formulario">
-
-                    <input type="text" name="nombre" placeholder="Nombre" id="nombre">
-                    <input type="text" name="correo" placeholder="Correo electróico" id="correo">
-                    <input type="text" name="asunto" placeholder="Asunto" id="asunto">
-                    <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
-                    <button type="button" onclick="validarFormulario()">Enviar</button>
+                    <acronym title="Escriba aqui el nombre">
+                    <input type="text" name="nombre" placeholder="Nombre" id="nombre"></acronym>
+                    <acronym title="Escriba aqui su correo electróico">
+                        <input type="text" name="correo" placeholder="Correo electróico" id="correo"></acronym>
+                    <acronym title="Escriba aqui el asunto de su mensaje">
+                        <input type="text" name="asunto" placeholder="Asunto" id="asunto"></acronym>
+                    <acronym title="Escriba aqui el la molestia o nesesidad que tenga">
+                        <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea></acronym>
+                    <acronym title="Enviar mensaje">
+                        <button type="button" onclick="validarFormulario()">Enviar</button></acronym>
 
 
                 </form>
