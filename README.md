@@ -20,5 +20,4 @@ Contacto:
 * Se valido el campo correo para que solo fuera correcto con un @ y .com/.cl  y aceptara una gran variedad de caracteres. 
 * Se valido el ingresar para que solo se pudiera enviar en caso que todos los campos fueran completados de manera correcta.
 * Tambien se agrego el comando acronym para que al momento de pasar el maus sobre un campo especifique la accion a realizar.
-
 ```
